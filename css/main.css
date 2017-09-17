@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'opensans';
+  src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'), url('../fonts/opensans-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'opensans';
+  src: url('../fonts/opensans-light-webfont.woff2') format('woff2'), url('../fonts/opensans-light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Roboto';
+  color: #221f1f;
+}
+
+.header {
+  background: #2b2b2b;
+
+  height: 80px;
+}
+
+.footer {
+  background: #2b2b2b;
+}
+
+.footer__text, .socials__title, .socials__item, .contacts_phone, .contacts_desc {
+  color: white;
+}
+
+.service__occ {
+  font-weight: bold;
+}
