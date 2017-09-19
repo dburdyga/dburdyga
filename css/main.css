@@ -54,48 +54,57 @@ body {
 }
 
 
-.contacts_desc{
-  color: #f89513
+.button{
+  color: #f89513;
+  border: none;
 }
 
+.Contacts {
+  position: absolute;
+  left: 909px;
+  top: 21px;
+}
 
+.contacts_phone {
+  text-decoration-line: none;
+}
 
 .service__occ {
   font-weight: bold;
 }
 
-.service__avatar-pic_1{
+.service__avatar_fitness {
  position: absolute;
  top: 248px;
- left: 200px;
+ left: 200px; 
 }
 
-.service__avatar-pic_2 {
+.service__avatar_diet{
  position: absolute;
  top: 248px;
  left: 505px;
 }
 
-.service__avatar-pic_3 {
+.service__avatar_yoga {
  position: absolute;
  top: 248px;
  left: 810px;
 }
-.service__avatar-pic_4 {
+.service__avatar_trx {
  position: absolute;
  top: 728px;
  left: 200px;
  right: 650px;
 }
 
-.service__avatar-pic_5 {
+.service__avatar_crossfit {
  position: absolute;
  top: 728px;
  left: 505px;
  right: 345px;
 }
 
-.service__avatar-pic_6 {
+.service__avatar_swimming {
  position: absolute;
  top: 728px;
  left: 810px;
