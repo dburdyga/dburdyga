@@ -95,11 +95,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 46px;
 }
 
-.footer {
-  background: #2b2b2b;
-  height: 77px;
-  top: 1371px;
-}
 
 .footer__text, .socials__title, .socials__item, .contacts_phone, .contacts_desc {
   color: white;
@@ -134,6 +129,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 250px;
   height: 153px;
   text-align: left;
+  margin-bottom: 30px;
 }
 
 .service__occ {
@@ -143,4 +139,75 @@ h1, h2, h3, h4, h5, h6 {
 
 .service__content {
   font-size: 14px;
+}
+
+.nav__item {
+  margin-bottom: 34px;
+}
+
+.nav__icon {
+  width: 22px; 
+  height: 19px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 17px;
+}
+
+.nav__text {
+  font-size: 12px;
+  color: #f9960a;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.nav__link:hover .nav__text {
+  color: #0a0c0d;
+}
+
+.nav__link:hover .nav__icon_service {
+   background-image: url('../img/service-icon.png');
+}
+
+
+.nav__icon_direction {
+  background: url('../img/main-icon.png') center center no-repeat;
+}
+
+.nav__icon_service {
+  background: url('../img/service-icon_orange.png') center center no-repeat;
+
+}
+
+.nav__icon_star {
+  background: url('../img/feed-icon.png') center center no-repeat;
+}
+
+.footer {
+  background: #2b2b2b;
+  height: 77px;
+}
+
+.footer__col {
+  float: left;
+  width: 33.3%
+}
+
+
+.footer_logo {
+  display: inline-block;
+  
+}
+
+.footer__text {
+  display: inline-block;
+}
+
+.socials__title {
+  display: inline-block;
 }
