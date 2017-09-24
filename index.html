@@ -3,34 +3,45 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1120">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+
+
+    <link rel="stylesheet" href="css/sections/header.css">
+    <link rel="stylesheet" href="css/layout/base.css">
+    <link rel="stylesheet" href="css/layout/base.css">
+    <link rel="stylesheet" href="css/layout/base.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Services</title>
 </head>
 
 <body>
 	<div class="wrapper">
-		<div class="header">
-			<div class="container">
-        <a href="#" class="logo">
-          <img src="./img/logo.png" class="logo_header"></img>
-        </a>
-          <div class="Contacts" align="right">
-                <div class="contacts_phone">
-                  <a href="#" class="contacts_phone">8 (800) 00-392-10</a>
-                </div>
-                <div class="contacts_desc">
+		<header class="header">
+			<div class="container clearfix">
+        <div class="header__col">
+          <a href="#" class="logo">
+           <img src="./img/logo.png" class="logo_header"></img>
+          </a>
+        </div>
+          <div class="header__col header__col_align_right">
+                <adress class="contacts">
+                  <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10
+                  </a>
+                  <div class="contacts__desc">
                     <a href="#" class="button">График работы</a>
-                </div>
+                  </div>
+                </adress>
           </div>
       </div>
-    </div>
+    </header>
     <div class="content">
       <div class="container clearfix">
-        <div class="section">
+        <main class="maincontent">
+          <div class="about">
           <ul class="breadcrumbs">
             <li class="breadcrumbs__item">
               <a href="#" class="breadcrumbs__link">Главная</a>
@@ -122,33 +133,37 @@
               </div>
             </li>
           </ul>
-        </div>
-        <div class="sidebar">
-          <ul class="nav">
-            <li class="nav__item">
-              <a href="" class="nav__link">
-                <div class="nav__icon nav__icon_direction"></div>
-                <div class="nav__text">Главная</div>
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="" class="nav__link">
-                <div class="nav__icon nav__icon_service"></div>
-                <div class="nav__text">Услуги</div>
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="" class="nav__link">
-                <div class="nav__icon nav__icon_star"></div>
-                <div class="nav__text">Отзывы</div>
-              </a>
-            </li>
-          </ul> 
-        </div>
+          </div>
+        </main>
+          <aside class="sidebar">
+           <nav class="nav__list">  
+            <ul class="nav">
+              <li class="nav__item">
+                <a href="" class="nav__link">
+                  <div class="nav__icon nav__icon_direction"></div>
+                  <div class="nav__text">Главная</div>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link">
+                  <div class="nav__icon nav__icon_service"></div>
+                  <div class="nav__text">Услуги</div>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link">
+                  <div class="nav__icon nav__icon_star"></div>
+                  <div class="nav__text">Отзывы</div>
+                </a>
+              </li>
+            </ul> 
+          </nav>
+        </aside>
       </div>
-    </div>
-    <div class="footer">
-      <div class="container clearfix">
+    </div> 
+  </div>
+  <footer class="footer">
+      <div class="container clearfix footer_wrapper">
        <div class="footer__col" align="left">
         <div class="footer__text">
           Сделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool. Автор работы: Прохладов Вадим
@@ -156,7 +171,7 @@
        </div>
        <div class="footer__col" align="center">
         <a href="#" class="logo">
-          <img src="./img/logo.png" class="logo"></img>
+          <img src="./img/logo.png" class="footer_logo"></img>
         </a>
        </div>
        <div class="footer__col" align="right">
@@ -191,9 +206,7 @@
           </ul>
         </div>
       </div>
-    </div>
-
-  </div>
+  </footer>  
 </body>
 </html>
 
