@@ -14,87 +14,20 @@
   font-size: 14px;
 }
 
-body {
-  font-family: 'Roboto';
-  color: #221f1f;
-  margin: 0;
-}
+@import url('../layout/base.css');
+@import url('../sections/header.css');
+@import url('../sections/maincontent.css');
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  font-weight: normal;
-}
+/* 91 минута
+*/
 
-.container {
-  width: 1106px;
-  margin: 0 auto;
-}
-
-.title {
-  font-size: 49px;
-  font-weight: bold;
-  color: #131415;
-  margin-bottom: 40px;
-}
-
-.breadcrumbs {
-  margin-bottom: 28px;
-}
-
-.breadcrumbs__item {
-  display: inline-block;
-}
-
-.breadcrumbs__item:after {
-  content: '/';
-}
-
-.breadcrumbs__item:last-child:after{
-  display: none;
-}
-
-.breadcrumbs__link {
-  font-size: 14px;
-  font-weight: 300;
-  font-style: italic;
-  color: #f9960a;
-}
-
-.breadcrumbs__link_active {
-  text-decoration: none;
-  color: black;
-}
-
-.section {
- width: 864px;
- float: right;
- margin-left: 78px; 
-}
 
 .sidebar {
  width: 106px;
  float: right;
 }
  
-
-.clearfix:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-.header {
-  background: #2b2b2b;
-  height: 76px;
-  margin-bottom: 46px;
-}
-
 
 .footer__text, .socials__title, .socials__item, .contacts_phone, .contacts_desc {
   color: white;
@@ -106,16 +39,6 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
 }
 
-.contacts_phone {
-  font-size: 21px;
-  font-weight: bold;
-  text-decoration-line: none;
-}
-
-.contacts_desc {
-  font-size: 14px;
-  font-weight: bold;
-}
 
 .service__item {
   width: 258px;
@@ -188,26 +111,25 @@ h1, h2, h3, h4, h5, h6 {
   background: url('../img/feed-icon.png') center center no-repeat;
 }
 
-.footer {
-  background: #2b2b2b;
-  height: 77px;
-}
+
 
 .footer__col {
   float: left;
   width: 33.3%
-}
+ }
 
 
+/*
 .footer_logo {
-  display: inline-block;
-  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+----
 
-.footer__text {
-  display: inline-block;
+.footer_wrapper {
+  position: relative;
 }
+*/
 
-.socials__title {
-  display: inline-block;
-}
