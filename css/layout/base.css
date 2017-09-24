@@ -1,0 +1,59 @@
+body, html {
+  height: 100%;
+}
+
+.wrapper{
+  min-height: 100%;
+  overflow: hidden;
+  min-width: 1120px;
+}
+
+.wrapper:after {
+  content: "";
+  display: block;
+  height: 77px;
+}
+
+.footer {
+  height: 77px;
+  background: #2b2b2b;
+  color: white;
+  margin-top: -77px;
+  min-width: 1120px;
+}
+
+body {
+  font-family: 'Roboto';
+  color: #221f1f;
+  margin: 0;
+  line-height: 1.42;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
