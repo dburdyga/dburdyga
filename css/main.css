@@ -17,17 +17,10 @@
 @import url('../layout/base.css');
 @import url('../sections/header.css');
 @import url('../sections/maincontent.css');
+@import url('../sections/footer.css');
+@import url('../sections/sidebar.css');
+@import url('../sections/team.css');
 
-
-/* 91 минута
-*/
-
-
-.sidebar {
- width: 106px;
- float: right;
-}
- 
 
 .footer__text, .socials__title, .socials__item, .contacts_phone, .contacts_desc {
   color: white;
@@ -40,96 +33,6 @@
 }
 
 
-.service__item {
-  width: 258px;
-  display: inline-block;
-  text-align: left;
-  vertical-align: top;
-  margin-bottom: 45px;
-}
-
-.service__avatar {
-  width: 250px;
-  height: 153px;
-  text-align: left;
-  margin-bottom: 30px;
-}
-
-.service__occ {
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.service__content {
-  font-size: 14px;
-}
-
-.nav__item {
-  margin-bottom: 34px;
-}
-
-.nav__icon {
-  width: 22px; 
-  height: 19px;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 17px;
-}
-
-.nav__text {
-  font-size: 12px;
-  color: #f9960a;
-  font-weight: bold;
-  text-transform: uppercase;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.nav__link {
-  text-decoration: none;
-}
-
-.nav__link:hover .nav__text {
-  color: #0a0c0d;
-}
-
-.nav__link:hover .nav__icon_service {
-   background-image: url('../img/service-icon.png');
-}
 
 
-.nav__icon_direction {
-  background: url('../img/main-icon.png') center center no-repeat;
-}
-
-.nav__icon_service {
-  background: url('../img/service-icon_orange.png') center center no-repeat;
-
-}
-
-.nav__icon_star {
-  background: url('../img/feed-icon.png') center center no-repeat;
-}
-
-
-
-.footer__col {
-  float: left;
-  width: 33.3%
- }
-
-
-/*
-.footer_logo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-----
-
-.footer_wrapper {
-  position: relative;
-}
-*/
-
+ 

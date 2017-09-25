@@ -12,6 +12,8 @@
 
 .header__col_align_right {
   text-align: right;
+  position: relative;
+  top: 21px;
 }
 
 .contacts {
@@ -30,5 +32,9 @@
   font-weight: bold;
 }
 
-
+.logo {
+  position: relative;
+  left: 19px;
+  top: 30px;
+}
 

@@ -1,0 +1,23 @@
+.service__item {
+  width: 258px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  margin-bottom: 45px;
+}
+
+.service__avatar {
+  width: 250px;
+  height: 153px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.service__occ {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.service__content {
+  font-size: 14px;
+}

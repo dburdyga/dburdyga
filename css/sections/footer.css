@@ -1,0 +1,27 @@
+.footer__text, .socials__title, .socials__item, .contacts_phone, .contacts_desc {
+  color: white;
+}
+
+
+.footer__col {
+  float: left;
+  width: 33.3%
+ }
+
+ .socials__item {
+ 	display: inline-block;
+ }
+
+
+.footer_logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.footer_wrapper {
+  position: relative;
+}
+

@@ -1,0 +1,54 @@
+.nav {
+ width: 106px;
+ float: right;
+}
+ 
+ .nav__item {
+  margin-bottom: 34px;
+}
+
+.nav__icon {
+  width: 22px; 
+  height: 19px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 17px;
+}
+
+.nav__text {
+  font-size: 12px;
+  color: #f9960a;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.nav__link:hover .nav__text {
+  color: #0a0c0d;
+}
+
+.nav__link:hover .nav__icon_service {
+   background-image: url('../../img/service-icon.png');
+}
+
+
+
+.nav__icon_direction {
+  background: url('../../img/main-icon.png') center center no-repeat;
+}
+
+.nav__icon_service {
+  background: url('../../img/service-icon_orange.png') center center no-repeat;
+
+}
+
+.nav__icon_star {
+  background: url('../../img/feed-icon.png') center center no-repeat;
+}
+
+
