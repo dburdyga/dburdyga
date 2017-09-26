@@ -37,8 +37,6 @@
  width: 864px;
  float: right;
  margin-left: 78px; 
- 
-
 }
 
 .about {
@@ -60,7 +58,6 @@
 .weights__avatar_fitness {
   display: block;
   max-width: 100%;
-
 }
 
 .about__title {
@@ -100,3 +97,7 @@
   padding-top: 21px;
 }
 
+
+.team__item {
+  display: inline-block;
+}
