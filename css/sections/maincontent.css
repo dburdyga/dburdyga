@@ -37,11 +37,14 @@
  width: 864px;
  float: right;
  margin-left: 78px; 
+ 
+
 }
 
 .about {
   width: 879px;
   position: relative;
+  top: -42px;
 }
 
 .about__overlay {
@@ -53,26 +56,47 @@
   opacity: 0.851;
 }
 
+
 .weights__avatar_fitness {
   display: block;
   max-width: 100%;
-  top: 76px;
-  position: fixed;
 
 }
 
 .about__title {
   position: absolute;
-  top: 30px;
   color: white;
   left: 66px;
   font-weight: bold;
   font-size: 49px;
-  top: 85px;
+  top: 140px;
 }
 
 .about__text {
-  position: relative;
-  top: 320px;
   max-width: 100%;
+  width: 694px;
+  height: 686px;
 }
+
+.sport_list {
+  list-style-type: disc;
+}
+
+
+.recktangle__block {
+  width: 700px;
+  height: 144px;
+  position: relative;
+}
+
+.recktangle__text {
+  background: #131415;
+  color: white;
+  width: 700px;
+  height: 144px;
+  position: absolute;
+  padding-left: 31px;
+  padding-right: 33px;
+  padding-top: 21px;
+}
+
