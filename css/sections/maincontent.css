@@ -110,6 +110,7 @@ position: relative;
   float: right;
   font-size: 18px;
   vertical-align: top;
+  text-align: justify;
 }
 
 .team__avatar {
@@ -132,3 +133,18 @@ hr {
  float: right;
  margin-left: 78px; 
 }
+
+
+.partners {
+  position: relative;
+  width: 646px;
+  height: 242px;
+}
+
+.partners__title {
+  font-size: 49px;
+  font-style: bold;
+}
+
+
+
