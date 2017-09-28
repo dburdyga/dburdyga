@@ -40,6 +40,14 @@
 
 
 
+.layer1 {
+  z-index: 1;
+}
+
+.layer2 {
+  z-index: 2;
+}
+
 
 .button { 
   color: #f8960b;
@@ -52,48 +60,42 @@
   position: relative;
  }
 
-.layer1 {
-  z-index: 1;
-}
-
-.layer2 {
-  z-index: 2;
-}
 
  .button:hover .dropdown__menu {
   right: 0;
   left: initial;
   display: block;
+  opacity: 1;
+ 
  }
 
 .dropdown__menu {
   display: none;
+  position: absolute;
   width: 163px;
   height: 68px;
-  position: relative;
   padding: 20px;
   background: #f6f6f5;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0,0,0,0,5);
+  box-shadow: (0 0 5px rgba(0,0,0,0,5));
   font-size: 14px;
   color: black;
   font-weight: normal;
-  position: absolute;
   top: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
   /*right: 0;*/
   left: -9999px;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .dropdown__block {
+  position: absolute;
   height: 36px;
   width: 123px;
-  position: absolute;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 17px;
-
-
 }
 
 .triangle {
@@ -120,4 +122,10 @@
   content: "";
   display: block;
   width: 0;
+  height: 0;
+  border: 10px;
+  border-top-width: 0px;
+  border-bottom-color: white;
+  filter: drop-shadow (0px -2px 1px rgba (0,0,0,0,2));
+  position: absolute;
 }
