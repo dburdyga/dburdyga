@@ -1,0 +1,42 @@
+
+
+
+
+
+.pagination__btn {
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: middle;
+  color: black;
+}
+
+
+.pagination__btn_active {
+  color: white;
+}
+
+..pagination__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pagination__link {
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  display: block;
+  font-size: 14px;
+  color: black;
+  transition: .3s;
+}
+
+.pagination__link:hover {
+  color: white;
+  background-color: #f8960b;
+  border-radius: 3px;
+}
+
+.pagination__item_active .pagination__link{
+
+}

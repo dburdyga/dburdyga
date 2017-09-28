@@ -73,6 +73,7 @@
   max-width: 100%;
   width: 694px;
   height: 686px;
+  font-size: 18px;
 }
 
 .sport_list {
@@ -91,7 +92,6 @@
   color: white;
   width: 700px;
   height: 144px;
-  position: absolute;
   padding-left: 31px;
   padding-right: 33px;
   padding-top: 21px;
