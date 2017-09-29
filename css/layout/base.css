@@ -8,10 +8,44 @@ body, html {
   min-width: 1120px;
 }
 
+
+.wrapper_welcome {
+ background: url('../../img/welcome.png') center center no-repeat;
+ background-size: cover; 
+ min-width: 600px;
+}
+
 .wrapper:after {
   content: "";
   display: block;
   height: 77px;
+}
+
+.welcome {
+display: block;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.button_main {
+  position: relative;
+  background: #f8960b;
+  height: 45px; 
+  width: 172px;
+  border-radius: 5px;
+  display: block;
+  cursor: pointer;
+}
+
+.button_text {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding-top: 16px;
+  padding-left: 30px; 
 }
 
 .footer {
