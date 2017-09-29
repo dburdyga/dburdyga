@@ -27,10 +27,7 @@
   color: white;
 }
 
-.contacts__desc {
-  font-size: 14px;
-  font-weight: bold;
-}
+
 
 .logo {
   position: relative;
@@ -49,7 +46,7 @@
 }
 
 
-.button { 
+button { 
   color: #f8960b;
   font-size: 14px;
   font-weight: bold;
@@ -58,15 +55,18 @@
   border-bottom: 2px solid #f8960b;
   cursor: pointer;
   position: relative;
+  border: none;
+  background: none;
+  text-decoration:underline;
  }
 
 
- .button:hover .dropdown__menu {
+
+button:hover .dropdown__menu {
   right: 0;
   left: initial;
   display: block;
-  opacity: 1;
- 
+  opacity: 1; 
  }
 
 .dropdown__menu {
