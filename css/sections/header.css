@@ -46,23 +46,25 @@
 }
 
 
-button { 
+.contacts__desc { 
   color: #f8960b;
   font-size: 14px;
   font-weight: bold;
-  display: inline-block;
+  display: block;
   vertical-align: middle;
-  border-bottom: 2px solid #f8960b;
+  
   cursor: pointer;
   position: relative;
-  border: none;
-  background: none;
-  text-decoration:underline;
  }
 
+button {
+  border: none;
+  background: none;
+  color: #f8960b;
+  text-decoration: underline;
+}
 
-
-button:hover .dropdown__menu {
+.contacts__desc:hover .dropdown__menu {
   right: 0;
   left: initial;
   display: block;
@@ -87,6 +89,7 @@ button:hover .dropdown__menu {
   left: -9999px;
   opacity: 0;
   transition: opacity 1s;
+
 }
 
 .dropdown__block {
