@@ -3,6 +3,10 @@
  float: right;
 }
  
+.sidebar {
+   margin-bottom: 42px;
+}
+
  .nav__item {
   margin-bottom: 34px;
 }
