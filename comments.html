@@ -12,13 +12,15 @@
       <link rel="stylesheet" href="css/sections/footer.css">
       <link rel="stylesheet" href="css/sections/sidebar.css">
       <link rel="stylesheet" href="css/sections/team.css">
+      <link rel="stylesheet" href="css/sections/form.css">
+      <link rel="stylesheet" href="css/sections/pagination.css">
       <link rel="stylesheet" href="css/layout/base.css">
       <link rel="stylesheet" href="css/main.css">
       <title>Comments</title>
   </head>
-  <body>
+  <body class="vsc-initialized">
   	<div class="wrapper">
-  		 <header class="header">
+  		<header class="header">
   			<div class="container clearfix">
           <div class="header__col">
             <a href="./about.html" class="logo">
@@ -45,169 +47,178 @@
              </adress>
           </div>
         </div>
-       </header>
+      </header>
        <div class="content">
-        <div class="container clearfix">
-          <main class="maincontent">
-           <div class="comments-section">
-            <ul class="breadcrumbs">
-              <li class="breadcrumbs__item">
-                <a href="./about.html" class="breadcrumbs__link">Главная</a>
-              </li>
-              <li class="breadcrumbs__item">
-                <a href="#" class="breadcrumbs__link breadcrumbs__link_active">Отзывы</a>
-              </li>
-            </ul>
-            <h1 class="title">Отзывы</h1>
-            <ul class="team">
-              <li class="team__item">
-                <div class="team__avatar">
-                  <img src="./img/trainer_alexey.png" alt="" class="service__avatar_fitness">
-                </div>
-                <div class="team__block">
-                  <div class="comments_data">
-                    12.10.2016
-                  </div>
-                  <div class="team__occ">
-                    Алексей Воронов
-                  </div>
-                  <div class="team__content">
-                      Пришел, чтобы похудеть немного к лету, но благодаря тренеру Александру Ковалеву, получилось накачать нормальные банки. Втянулся, теперь занимаюсь регулярно, 2 раза в неделю, доволен и всем советую. Кстати, польза от тренировок намного заметнее, если придерживаться ПП. Рацион мне составили на неделю, но я его повторяю, не надоедает.
-                  </div>
-                </div>
-              </li>
-              <hr>
-              <li class="team__item">
-                <div class="team__avatar">
-                  <img src="./img/trainer_inna.png" alt="" class="service__avatar_diet">
-                </div>
-                <div class="team__block">
-                  <div class="comments_data">
-                    01.02.2016
-                  </div>
-                  <div class="team__occ">
-                    Инна Смольная
-                  </div>
-                  <div class="team__content">
-                    Подарили на день рождения абонемент в бассейн, пришлось воспользоваться. Сама бы я сюда не пришла, не очень нравится плавать с мужиками, которые пялятся постоянно, администрации следует обратить внимание на этот вопрос! Еще бросилось в глаза хамство обслуживающего персонала. Уборщица в раздевалке вела себя, как будто это к ней в гости пришли.
-                  </div>
-                </div>
-              </li>
-              <hr>
-              <li class="team__item">
-                <div class="team__avatar">
-                  <img src="./img/trainer_irina.png" alt="" class="service__avatar_trx">
-                </div>
-                <div class="team__block">
-                  <div class="comments_data">
-                    22.12.2015
-                  </div>
-                  <div class="team__occ">
-                    Владимир Савельев
-                  </div>
-                  <div class="team__content">
-                    Норм клуб, железа хватает, но техника устаревшая. За эту цену – прокатит. Если хотите большего, то обращайтесь в специализированные тренажерки с новым железом и европейской техникой.
-                  </div>
-                </div>
-              </li>
-              <hr>
-              <li class="team__item">
-                <div class="team__avatar">
-                  <img src="./img/trainer_irina.png" alt="" class="service__avatar_crossfit">
-                </div>
-                <div class="team__block">
-                  <div class="comments_data">
-                    14.08.2015
-                  </div>
-                  <div class="team__occ">
-                    Ирина Савина
-                  </div>
-                  <div class="team__content">
-                    Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже знакомые отметили, что я помолодела, появилась талия, ножки постройнели. Нагрузка сначала была непривычная, но втягиваешься быстро, тем более, что отражение в зеркале радует. Цены приятные, а если платить на полгода вперед, то вообще выгодно получается, скидка почти 30%. 
-                  </div>
-                </div>
-              </li>
-            </div>
-            </ul>
-          <div class="pagination">
-             <div class="pagination__title">Страница 1 из 7</div>
-             <a href="" class="pagination__btn pagination__btn_prev pagination__btn_active"> < </a>
-            <ul class="pagination__list">
-              <li class="pagination__item pagination__item_active">
-                <a href="#" class="pagination__link">1</a>
-              </li>
-              <li class="pagination__item">
-                <a href="#" class="pagination__link">2</a>
-              </li>
-              <li class="pagination__item">
-                <a href="#" class="pagination__link">3</a>
-              </li>
-              <li class="pagination__item">
-                <a href="#" class="pagination__link">4</a>
-              </li>
-              <li class="pagination__item">
-                <a href="#" class="pagination__link">5</a>
-              </li>
-              <li class="pagination__item">
-                <a href="#" class="pagination__link">6</a>
-              </li>
-            <a href="" class="pagination__btn pagination__btn_prev pagination__btn_active"> > </a>
-            </ul>
-
-            
-
-          </div>
-          <div class="form">
-            <div class="form__title">Оставить отзыв</div>
-              <div class="form__fields"></div>
-                <div class="form__tag"></div>
-                  <div class="form__inputs"></div>
-                     <div class="form__row">
-                       
-                     </div>
-                    <div class="form__elem">
-                      <label for="" class="form__elem-title">Ваше имя</label>
-                      <label type="text" class="form__input"></label>
-                    </div>
-                    <div class="form__elem">
-                      <label for="" class="form__elem-title">Ссылка на профиль vk</label>
-                      <label type="text" class="form__input"></label>
-                    </div>
-                    <div class="form__buttons"></div>
-          </div>
-        </main>
-          <aside class="sidebar">
-            <nav class="nav">  
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <a href="./about.html" class="nav__link">
-                    <div class="nav__icon nav__icon_direction"></div>
-                    <div class="nav__text">Главная</div>
-                  </a>
+          <div class="container clearfix">
+                        <aside class="sidebar">
+              <nav class="nav">  
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a href="./about.html" class="nav__link">
+                      <div class="nav__icon nav__icon_direction"></div>
+                      <div class="nav__text">Главная</div>
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="./index.html" class="nav__link">
+                      <div class="nav__icon nav__icon_service"></div>
+                      <div class="nav__text">Услуги</div>
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="" class="nav__link">
+                      <div class="nav__icon nav__icon_star"></div>
+                      <div class="nav__text">Отзывы</div>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </aside>
+            <main class="maincontent">
+             <div class="comments-section">
+              <ul class="breadcrumbs">
+                <li class="breadcrumbs__item">
+                  <a href="./about.html" class="breadcrumbs__link">Главная</a>
                 </li>
-                <li class="nav__item">
-                  <a href="./index.html" class="nav__link">
-                    <div class="nav__icon nav__icon_service"></div>
-                    <div class="nav__text">Услуги</div>
-                  </a>
-                </li>
-                <li class="nav__item">
-                  <a href="" class="nav__link">
-                    <div class="nav__icon nav__icon_star"></div>
-                    <div class="nav__text">Отзывы</div>
-                  </a>
+                <li class="breadcrumbs__item">
+                  <a href="#" class="breadcrumbs__link breadcrumbs__link_active">Отзывы</a>
                 </li>
               </ul>
-            </nav>
-          </aside>
-        </div>
+              <h1 class="title">Отзывы</h1>
+              <ul class="team">
+                <li class="team__item">
+                  <div class="team__avatar">
+                    <img src="./img/trainer_alexey.png" alt="" class="service__avatar_fitness">
+                  </div>
+                  <div class="team__block">
+                    <div class="comments_data">
+                      12.10.2016
+                    </div>
+                    <div class="team__occ">
+                      Алексей Воронов
+                    </div>
+                    <div class="team__content">
+                        Пришел, чтобы похудеть немного к лету, но благодаря тренеру Александру Ковалеву, получилось накачать нормальные банки. Втянулся, теперь занимаюсь регулярно, 2 раза в неделю, доволен и всем советую. Кстати, польза от тренировок намного заметнее, если придерживаться ПП. Рацион мне составили на неделю, но я его повторяю, не надоедает.
+                    </div>
+                  </div>
+                </li>
+                <hr>
+                <li class="team__item">
+                  <div class="team__avatar">
+                    <img src="./img/trainer_inna.png" alt="" class="service__avatar_diet">
+                  </div>
+                  <div class="team__block">
+                    <div class="comments_data">
+                      01.02.2016
+                    </div>
+                    <div class="team__occ">
+                      Инна Смольная
+                    </div>
+                    <div class="team__content">
+                      Подарили на день рождения абонемент в бассейн, пришлось воспользоваться. Сама бы я сюда не пришла, не очень нравится плавать с мужиками, которые пялятся постоянно, администрации следует обратить внимание на этот вопрос! Еще бросилось в глаза хамство обслуживающего персонала. Уборщица в раздевалке вела себя, как будто это к ней в гости пришли.
+                    </div>
+                  </div>
+                </li>
+                <hr>
+                <li class="team__item">
+                  <div class="team__avatar">
+                    <img src="./img/trainer_vladimir.png" alt="" class="service__avatar_trx">
+                  </div>
+                  <div class="team__block">
+                    <div class="comments_data">
+                      22.12.2015
+                    </div>
+                    <div class="team__occ">
+                      Владимир Савельев
+                    </div>
+                    <div class="team__content">
+                      Норм клуб, железа хватает, но техника устаревшая. За эту цену – прокатит. Если хотите большего, то обращайтесь в специализированные тренажерки с новым железом и европейской техникой.
+                    </div>
+                  </div>
+                </li>
+                <hr>
+                <li class="team__item">
+                  <div class="team__avatar">
+                    <img src="./img/trainer_irina.png" alt="" class="service__avatar_crossfit">
+                  </div>
+                  <div class="team__block">
+                    <div class="comments_data">
+                      14.08.2015
+                    </div>
+                    <div class="team__occ">
+                      Ирина Савина
+                    </div>
+                    <div class="team__content">
+                      Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже знакомые отметили, что я помолодела, появилась талия, ножки постройнели. Нагрузка сначала была непривычная, но втягиваешься быстро, тем более, что отражение в зеркале радует. Цены приятные, а если платить на полгода вперед, то вообще выгодно получается, скидка почти 30%. 
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="pagination">
+                 <div class="pagination__title">Страница 1 из 7</div>
+                 <a href="" class="pagination__btn pagination__btn_prev pagination__btn_active"> < </a>
+                 <ul class="pagination__list">
+                  <li class="pagination__item pagination__item_active">
+                    <a href="#" class="pagination__link">1</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">2</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">3</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">4</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">5</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">6</a>
+                  </li>
+                  <a href="" class="pagination__btn pagination__btn_prev pagination__btn_active"> > </a>
+                 </ul>
+              </div>
+              <form action class="form__elem">
+                <div class="form__title">Оставить отзыв</div>
+                <div class="form__row clearfix">
+                  <label class="form__input">
+                    <div class="form__input-title">Ваше имя</div>
+                    <input type="text" class="form__input-text form__input-elem" placeholder="Андрей">
+                  </label>
+                  <label class="form__input">
+                    <div class="form__input-title">Ссылка на профиль VK</div>
+                    <input type="text" class="form__input-text form__input-elem" placeholder="vk.com/example">
+                  </label>
+                </div>
+                <div class="form__row clearfix">
+                  <label class="form__input">
+                    <div class="form__input-title">Текст</div>
+                    <input type="text" class="form__input-text form__input-elem" placeholder="Мне понравилось">
+                  </label>
+                </div>
+                <div class="form__row clearfix">
+                  <label class="form__input">
+                    <div class="form__input-title">Отображать фото в отзыве?</div>
+                    <div class="form__controls-radio-elem">
+                         <p><input name="Да" type="radio" value="Нет">Да</p>
+                         <p><input name="Да" type="radio" value="Нет">Нет</p>
+                      </div>
+                  </label>
+                </div> 
+                <button class="form__button">
+                  <div class="form__button_text">ОТПРАВИТЬ</div>
+              </button>
+              </form>
+            </main>
+          </div>
        </div>
     </div>
     <footer class="footer">
         <div class="container clearfix footer_wrapper">
          <div class="footer__col">
           <div class="footer__text">
-            Сделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool. Автор работы: <strong>Прохладов Вадим</strong>
+            Сделано с любовью и старанием на курсе «HTML + CSS» в <strong><u>LoftSchool</u></strong>. Автор работы: <strong>Прохладов Вадим</strong>
           </div>
          </div>
          <div class="footer__col footer__logo" style="text-align: center">
