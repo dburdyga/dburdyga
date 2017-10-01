@@ -1,6 +1,6 @@
 .nav {
  width: 106px;
- float: right;
+ float: left;
 }
  
 .sidebar {
@@ -26,6 +26,7 @@
   text-transform: uppercase;
   display: inline-block;
   vertical-align: middle;
+  letter-spacing: 1.2px;
 }
 
 .nav__link {

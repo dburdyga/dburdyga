@@ -19,7 +19,10 @@
 @import url('../sections/maincontent.css');
 @import url('../sections/footer.css');
 @import url('../sections/sidebar.css');
+@import url('../sections/pagination.css');
 @import url('../sections/team.css');
+@import url('../sections/form.css');
+
 
 
 .footer__text, .socials__title, .socials__item, .contacts_phone, .contacts_desc {

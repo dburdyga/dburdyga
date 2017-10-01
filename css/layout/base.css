@@ -5,7 +5,7 @@ body, html {
 .wrapper{
   min-height: 100%;
   overflow: hidden;
-  min-width: 1120px;
+  min-width: 1120px;   
 }
 
 
@@ -14,6 +14,7 @@ body, html {
  background-size: cover; 
  min-width: 600px;
 }
+
 
 .wrapper:after {
   content: "";
@@ -29,24 +30,36 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 
-.button_main {
-  position: relative;
+.button_main_welcome {
   background: #f8960b;
   height: 45px; 
   width: 172px;
   border-radius: 5px;
   display: block;
   cursor: pointer;
+  border: none; 
 }
 
+.button_main {
+  background: none;
+  border: none;
+  display: block;
+}
+
+
 .button_text {
-  position: absolute;
+  text-align: justify;
+  display: inline-block;
+  vertical-align: middle;
   color: white;
   font-weight: bold;
   font-size: 12px;
-  padding-top: 16px;
-  padding-left: 30px; 
+  letter-spacing: 1.2px;
+  margin-top:  16px;
+  text-decoration: none; 
 }
+
+
 
 .footer {
   height: 77px;
@@ -61,7 +74,10 @@ body {
   color: #221f1f;
   margin: 0;
   line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
 }
+
+
 
 ul {
   margin: 0;

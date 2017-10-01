@@ -1,10 +1,11 @@
+.pagination {
+  display: inline-flex;
+  margin-left: 419px;
 
-
-
-
+}
 
 .pagination__btn {
-  display: inline-block;
+  font-size: 16px;
   text-decoration: none;
   vertical-align: middle;
   color: black;
@@ -12,23 +13,31 @@
 
 
 .pagination__btn_active {
-  color: white;
+  color: grey;
 }
 
-..pagination__list {
-  display: inline-block;
-  vertical-align: middle;
+.pagination__item {
+  height: 28px;
+  width: 28px;
+
 }
+
+.pagination__list {
+ display: inline-flex;
+vertical-align: middle;
+}
+
 
 .pagination__link {
   text-decoration: none;
-  width: 25px;
-  height: 25px;
+  width: 28px;
+  height: 28px;
   text-align: center;
-  display: block;
-  font-size: 14px;
+  font-size: 16px;
   color: black;
   transition: .3s;
+  font-weight: bold;
+
 }
 
 .pagination__link:hover {
