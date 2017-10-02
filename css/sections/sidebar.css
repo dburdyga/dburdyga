@@ -37,20 +37,27 @@
   color: #0a0c0d;
 }
 
-.nav__link:hover .nav__icon_service {
-   background-image: url('../../img/service-icon.png');
-}
-
-.nav__icon_direction {
-  background: url('../../img/main-icon_orange.png') center center no-repeat;
-}
 
 .nav__icon_service {
   background: url('../../img/service-icon_orange.png') center center no-repeat;
 }
 
-.nav__icon_star {
-  background: url('../../img/feed-icon.png') center center no-repeat;
+
+.nav__icon_service_about {
+  background: url('../../img/service-icon_orange.png') center center no-repeat;
+}
+
+
+.nav__link:hover .nav__icon_service_about {
+   background-image: url('../../img/service-icon.png');
+}
+
+
+
+
+
+.nav__icon_direction {
+  background: url('../../img/main-icon_orange.png') center center no-repeat;
 }
 
 
@@ -58,11 +65,24 @@
   background: url('../../img/main-icon_orange.png') center center no-repeat;
 }
 
+
 .nav__link:hover .nav__icon_direction_about {
    background-image: url('../../img/main-icon.png');
 }
 
 
-.nav__icon_service_about {
-  background: url('../../img/service-icon_orange.png') center center no-repeat;
+
+
+
+.nav__icon_star {
+  background: url('../../img/feed-icon_orange.png') center center no-repeat;
 }
+
+.nav__icon_star_about {
+  background: url('../../img/feed-icon_orange.png') center center no-repeat;
+}
+
+.nav__link:hover .nav__icon_star_about {
+   background-image: url('../../img/feed-icon.png');
+}
+

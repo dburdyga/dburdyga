@@ -61,6 +61,9 @@
 
 }
 
+article {
+ float: right;
+}
 
 .about__title {
   position: absolute;
@@ -82,11 +85,18 @@
   list-style-type: disc;
 }
 
+.partners_item {
+  list-style: none;
+
+}
+
+
 
 .recktangle__block {
   width: 700px;
   height: 144px;
-  position: relative;
+  display: inline-block;
+
 }
 
 .recktangle__text {
@@ -127,7 +137,6 @@ position: relative;
 }
 
 hr {
- 
   color: #f5f5f5;
 }
 
