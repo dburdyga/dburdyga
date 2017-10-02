@@ -5,12 +5,29 @@
 
 .footer__col {
   float: left;
-  width: 33.3%
+  width: 33.3%;
+
+
  }
 
  .socials__item {
  	display: inline-block;
  }
+
+.socials__title {
+font-size: 14px;
+font-weight: bold;
+padding-top: 13px;
+}
+
+.logo_footer {
+padding-top: 30px;
+display: block;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
 
 
 .footer_wrapper {
@@ -27,4 +44,8 @@ text-align: right;
 
 .footer__text {
 text-align: left;
+height: 50px;
+width:239px;
+font-size: 14px;
+padding-top: 13px;
 }

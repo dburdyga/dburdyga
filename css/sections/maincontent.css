@@ -145,8 +145,14 @@ hr {
 
 .partners__title {
   font-size: 49px;
-  font-style: bold;
+  font-weight: bold;
+  padding-top: 61px;
 }
 
 
+table {
+width: 100%;
+border-collapse: collapse;
+text-align: center;
+}
 
