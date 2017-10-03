@@ -60,7 +60,7 @@
                     </a>
                   </li>
                   <li class="nav__item">
-                    <a href="./index.html" class="nav__link">
+                    <a href="./services.html" class="nav__link">
                       <div class="nav__icon nav__icon_service"></div>
                       <div class="nav__text">Услуги</div>
                     </a>
@@ -68,14 +68,14 @@
                   <li class="nav__item">
                     <a href="" class="nav__link">
                       <div class="nav__icon nav__icon_star_about"></div>
-                      <div class="nav__text">Отзывы</div>
+                      <div class="nav__text nav__text_about">Отзывы</div>
                     </a>
                   </li>
                 </ul>
               </nav>
             </aside>
             <main class="maincontent">
-             <div class="comments-section">
+             <div class="team-section">
               <ul class="breadcrumbs">
                 <li class="breadcrumbs__item">
                   <a href="./about.html" class="breadcrumbs__link">Главная</a>
@@ -102,7 +102,6 @@
                     </div>
                   </div>
                 </li>
-                <hr>
                 <li class="team__item">
                   <div class="team__avatar">
                     <img src="./img/trainer_inna.png" alt="" class="service__avatar_diet">
@@ -119,7 +118,6 @@
                     </div>
                   </div>
                 </li>
-                <hr>
                 <li class="team__item">
                   <div class="team__avatar">
                     <img src="./img/trainer_vladimir.png" alt="" class="service__avatar_trx">
@@ -136,7 +134,6 @@
                     </div>
                   </div>
                 </li>
-                <hr>
                 <li class="team__item">
                   <div class="team__avatar">
                     <img src="./img/trainer_irina.png" alt="" class="service__avatar_crossfit">
@@ -156,8 +153,10 @@
               </ul>
               <div class="pagination">
                  <div class="pagination__title">Страница 1 из 7</div>
-                 <a href="" class="pagination__btn pagination__btn_prev pagination__btn_active"> < </a>
                  <ul class="pagination__list">
+                  <li class="pagination__btn">
+                    <a href="#" class="pagination__btn_prev"> < </a>
+                  </li>
                   <li class="pagination__item pagination__item_active">
                     <a href="#" class="pagination__link">1</a>
                   </li>
@@ -176,30 +175,43 @@
                   <li class="pagination__item">
                     <a href="#" class="pagination__link">6</a>
                   </li>
-                    <a href="" class="pagination__btn pagination__btn_prev pagination__btn_active"> > </a>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">7</a>
+                  </li>
+                  <li class="pagination__btn">
+                    <a href="#" class="pagination__btn_prev pagination__btn_active"> > </a>
+                  </li>
                  </ul>
               </div>
               <form action class="form__elem">
                 <div class="form__title">Оставить отзыв</div>
                 <div class="form__row clearfix">
                   <label class="form__input">
-                    <div class="form__input-title">Ваше имя</div>
+                    <div class="form__input-title">
+                    <p>Ваше имя</p>
+                  </div>
                     <input type="text" class="form__input-text form__input-elem" placeholder="Андрей">
                   </label>
                   <label class="form__input">
-                    <div class="form__input-title">Ссылка на профиль VK</div>
+                    <div class="form__input-title">
+                     <p>Ссылка на профиль VK</p>
+                  </div>
                     <input type="text" class="form__input-text form__input-elem" placeholder="vk.com/example">
                   </label>
                 </div>
                 <div class="form__row clearfix">
                   <label class="form__input">
-                    <div class="form__input-title">Текст</div>
-                    <input type="text" class="form__input-text form__input-elem" placeholder="Мне понравилось">
+                    <div class="form__input-title">
+                    <p>Текст</p>
+                  </div>
+                    <input type="text" class="form__input-text form__input-elem_like" placeholder="Мне понравилось">
                   </label>
                 </div>
                 <div class="form__row clearfix">
                   <label class="form__input">
-                    <div class="form__input-title">Отображать фото в отзыве?</div>
+                    <div class="form__input-title">
+                    <p>Отображать фото в отзыве?</p>
+                   </div>
                     <div class="form__controls-radio-elem">
                          <p><input name="Да" type="radio" value="Нет">Да</p>
                          <p><input name="Да" type="radio" value="Нет">Нет</p>
@@ -207,7 +219,7 @@
                   </label>
                 </div> 
                 <button class="form__button">
-                  <div class="form__button_text">ОТПРАВИТЬ</div>
+                  <div class="form__button_text">Отправить</div>
               </button>
               </form>
             </main>
@@ -218,7 +230,8 @@
         <div class="container clearfix footer_wrapper">
          <div class="footer__col">
           <div class="footer__text">
-            Сделано с любовью и старанием на курсе «HTML + CSS» в <strong><u>LoftSchool</u></strong>.
+            Сделано с любовью и старанием на курсе «HTML + CSS» в 
+            <a href="https://loftschool.com/" class="loftschool_link">LoftSchool.</a>
             Автор работы: <strong>Прохладов Вадим</strong>
           </div>
          </div>

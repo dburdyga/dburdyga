@@ -11,6 +11,7 @@
       <link rel="stylesheet" href="css/sections/maincontent.css">
       <link rel="stylesheet" href="css/sections/footer.css">
       <link rel="stylesheet" href="css/sections/sidebar.css">
+      <link rel="stylesheet" href="css/sections/pagination.css">
       <link rel="stylesheet" href="css/sections/team.css">
       <link rel="stylesheet" href="css/layout/base.css">
       <link rel="stylesheet" href="css/main.css">
@@ -54,11 +55,11 @@
                 <li class="nav__item">
                   <a href="" class="nav__link">
                     <div class="nav__icon nav__icon_direction_about"></div>
-                    <div class="nav__text">Главная</div>
+                    <div class="nav__text nav__text_about">Главная</div>
                   </a>
                 </li>
                 <li class="nav__item">
-                  <a href="./index.html" class="nav__link">
+                  <a href="./services.html" class="nav__link">
                     <div class="nav__icon nav__icon_service"></div>
                     <div class="nav__text">Услуги</div>
                   </a>
@@ -74,11 +75,11 @@
            </aside>
           <div class="main main--position">
             <div class="container clearfix">
-              <article>
+              <article class="company">
                 <div class="about">
                   <img src="./img/weights.png" alt="" class="weights__avatar_fitness layer2">
                   <div class="about__overlay"></div>
-                    <div class="about__title">О КОМПАНИИ</div> 
+                    <div class="about__title">О компании</div> 
                       <div class="about__text">
                         <p><strong>Фитнес-центр «Афродита»</strong> приглашает вас оздоровиться и провести приятно время с друзьями или знакомыми, занимаясь вместе спортом. Квалифицированные тренеры найдут индивидуальный подход к каждому, помогут достигнуть поставленных целей и определят оптимальную нагрузку.</p>
                         <p>Нашим главным отличием мы считаем огромный <strong>50 метровый бассейн,</strong> состоящий из 6 дорожек. Помимо бассейна в зоне отдыха установлены финские сауны и турецкий хамам. Это прекрасный вариант для восстановления после тяжелой тренировки.</p>
@@ -101,8 +102,10 @@
                   </p>
                 </div>
               </div>
-              <ul class="partners">
-                      <div class="partners__title">ПАРТНЁРЫ</div>
+              <div class="container clearfix">
+               <ul class="partners">
+                    <div class="partners__title">Партнёры</div>
+                      <div class="partners__list">
                       <li class="partners__item">
                         <a href="#" class="flamingo__logo">
                          <img src="./img/flamingo.png"></img>
@@ -133,7 +136,9 @@
                          <img src="./img/atletika.png"></img>
                         </a>
                       </li>
-              </ul>
+                      </div>
+               </ul>
+              </div>
              </div>
            </div>
           </div>
@@ -143,7 +148,8 @@
         <div class="container clearfix footer_wrapper">
          <div class="footer__col">
           <div class="footer__text">
-            Сделано с любовью и старанием на курсе «HTML + CSS» в <strong><u>LoftSchool</u></strong>.
+            Сделано с любовью и старанием на курсе «HTML + CSS» в 
+            <a href="https://loftschool.com/" class="loftschool_link">LoftSchool.</a>
             Автор работы: <strong>Прохладов Вадим</strong>
           </div>
          </div>
@@ -177,8 +183,12 @@
                 </a>
               </li>
               <li class="socials__item">
-                <a href="" class="socials__link">
-                  <img src="./img/post.png" alt="" class="socials__icon">
+                <a href="#" class="socials__link">
+ 
+                  <img src="./img/post.png" alt="" class="socials__icon socials__icon_post_about">
+                 
+
+        
                 </a>
               </li>
             </ul>
@@ -187,3 +197,4 @@
     </footer>
   </body>
 </html>
+
