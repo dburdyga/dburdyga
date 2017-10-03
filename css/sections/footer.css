@@ -8,15 +8,7 @@
   width: 33.3%;
  }
 
- .socials__item {
- 	display: inline-block;
- }
-
-.socials__title {
-font-size: 14px;
-font-weight: bold;
-padding-top: 13px;
-}
+ 
 
 .logo_footer {
 padding-top: 30px;
@@ -36,9 +28,6 @@ position: relative;
 }
 
 
-.socials{
-text-align: right;
-}
 
 .footer__text {
 text-align: left;
@@ -54,18 +43,34 @@ color: white;
 }
 
 
-
-.socials__icon_post {
-  background: url('../../img/post.png');
+.socials{
+text-align: left;
+float: right;
 }
 
+.socials__item {
+ display: inline-block;
+ border-radius: 23px;
+ width: 23px;
+ height: 23px;
+ background-color: #d0d0d0;
+ text-align: center;
+ vertical-align: middle;
+ margin-right: 5px;
+ }
 
-.socials__icon_post_about {
-  background: url('../../img/post_orange.png');
+
+
+.socials__title {
+font-size: 14px;
+font-weight: bold;
+padding-top: 13px;
+padding-bottom: 7px;
 }
 
-
-.socials__link:hover .socials__icon_post_about {
-   background-image: url('../../img/post_orange.png')
+.socials__item:hover {
+background-color: #f89513;
+width: 23px;
+ height: 23px;
+ border-radius: 23px;
 }
-

@@ -79,7 +79,6 @@ article {
 .about__text {
   max-width: 100%;
   width: 694px;
-  height: 686px;
   font-size: 18px;
 }
 
@@ -90,7 +89,7 @@ article {
 
 
 .recktangle__block {
-  float: right;
+
   display: block;
 }
 
@@ -151,26 +150,24 @@ border-bottom: none;
 }
 
 
-.partners {
-
-}
-
-
 
 .partners__title {
   font-size: 49px;
   font-weight: bold;
-  padding-top: 61px;
+  padding-top: 55px;
   text-transform: uppercase;
-}
-
-
-
-.partners_item {
-  list-style: none;
 
 }
 
+
+.partners__item {
+  float: left;
+  width: 33.3%;
+  display: block;
+  height: 65px;
+  padding-bottom: 50px;
+  padding-top: 48px;
+}
 
 
 .about__title, .form__button_text {

@@ -15,14 +15,16 @@
 }
 
 
-@import url('./layout/base.css');
-@import url('./sections/header.css');
-@import url('./sections/maincontent.css');
-@import url('./sections/footer.css');
-@import url('./sections/sidebar.css');
+
+@import url('layout/base.css');
+@import url('sections/header.css');
+@import url('sections/maincontent.css');
+@import url('sections/footer.css');
+@import url('sections/sidebar.css');
 @import url('sections/pagination.css');
-@import url('./sections/team.css');
+@import url('sections/team.css');
 @import url('sections/form.css');
+
 
 
 
