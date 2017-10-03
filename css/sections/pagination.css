@@ -1,20 +1,20 @@
 .pagination {
   display: inline-block;
-  margin-left: 419px;
-
+  margin-left: 200px;
 }
 
 
-.pagination a {
-  color: black;
+.pagination_item {
+  color: grey;
   float: left;
-  padding: 8px 8px;
+
   text-decoration: none;
 
 }
 
 .pagination__title {
  color: #bebdbd;
+ display: inline-block;
 }
 
 
@@ -26,34 +26,31 @@ vertical-align: middle;
 
 .pagination__link {
   text-decoration: none;
-  width: 28px;
-  height: 28px;
+ 
   text-align: center;
   vertical-align: middle;
-  font-size: 16px;
+  font-size: 14x;
   color: black;
   transition: .3s;
   font-weight: bold;
+  padding: 8px 12px;
 }
 
 .pagination__link:hover {
   color: #f89513;
   background-color: black;
   border-radius: 5px;
+  width: 5px;
+  height: 5px;
 }
 
-
-.pagination__btn_prev  {
+.pagination__btn_prev {
+  font-size: 20px;
+  text-decoration: none;
+  vertical-align: middle;
   color: #bebdbd;
 }
 
-.pagination__btn {
-  font-size: 16px;
-  text-decoration: none;
-  vertical-align: middle;
-}
-
-
-.pagination__item_active .pagination__link{
-
+.pagination__btn_active {
+  color: black;
 }

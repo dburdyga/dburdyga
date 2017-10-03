@@ -6,8 +6,6 @@
 .footer__col {
   float: left;
   width: 33.3%;
-
-
  }
 
  .socials__item {
@@ -49,3 +47,25 @@ width:239px;
 font-size: 14px;
 padding-top: 13px;
 }
+
+.loftschool_link {
+font-weight: bold;
+color: white;
+}
+
+
+
+.socials__icon_post {
+  background: url('../../img/post.png');
+}
+
+
+.socials__icon_post_about {
+  background: url('../../img/post_orange.png');
+}
+
+
+.socials__link:hover .socials__icon_post_about {
+   background-image: url('../../img/post_orange.png')
+}
+
