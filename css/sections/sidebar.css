@@ -54,9 +54,11 @@
 
 
 .nav__link:hover .nav__icon_service_about {
-   background-image: url('../../img/service-icon.png')
-   
-   cursor: none;
+   background-image: url('../../img/service-icon.png')   
+}
+
+.nav__link:hover .nav__icon_service {
+   background-image: url('../../img/service-icon.png') 
 }
 
 
@@ -67,16 +69,17 @@
   background: url('../../img/main-icon_orange.png') center center no-repeat;
 }
 
-
 .nav__icon_direction_about {
   background: url('../../img/main-icon.png') center center no-repeat;
 }
-
 
 .nav__link:hover .nav__icon_direction_about {
    background-image: url('../../img/main-icon.png');
 }
 
+.nav__link:hover .nav__icon_direction {
+   background-image: url('../../img/main-icon.png');
+}
 
 
 
@@ -93,3 +96,6 @@
    background-image: url('../../img/feed-icon.png');
 }
 
+.nav__link:hover .nav__icon_star {
+   background-image: url('../../img/feed-icon.png');
+}
