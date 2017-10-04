@@ -1,14 +1,13 @@
 .service__item {
-    width: 300px;
-    float: left;
- 
-    text-align: left;
-    vertical-align: top;
-    margin-bottom: 45px;
-    padding-right: 17px;
-    
+ width: 30%;
+float: left;
+text-align: left;
+vertical-align: top;
+margin-bottom: 45px;
+padding-right: 17px; 
 line-height: 21px;
-  display: block;
+display: block;
+margin-right: 12px;
 }
 
 .service__avatar {
