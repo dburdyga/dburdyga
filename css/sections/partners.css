@@ -1,0 +1,24 @@
+.partners__title {
+  font-size: 49px;
+  font-weight: bold;
+  padding-top: 55px;
+  text-transform: uppercase;
+}
+
+
+.partners__item {
+  float: left;
+  width: 33.3%;
+  display: block;
+  height: 65px;
+  padding-bottom: 50px;
+  padding-top: 48px;
+  opacity: 0.8;
+  filter: grayscale(100%); 
+}
+
+.partners__item:hover {
+ cursor: pointer;
+ opacity: 1;
+ filter: none;
+}

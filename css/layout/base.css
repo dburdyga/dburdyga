@@ -36,7 +36,9 @@ body, html {
   height: 77px;
 }
 
-
+.main_logo {
+  margin-bottom: 33px;
+}
 
 .welcome {
 align-content: middle;

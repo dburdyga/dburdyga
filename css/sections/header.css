@@ -18,6 +18,8 @@
 
 .contacts {
   display: inline-block;
+  margin-right: -2px;
+  margin-top: -7px;
 }
 
 .contacts__phone {
@@ -32,6 +34,7 @@
   position: relative;
   left: 19px;
   top: 30px;
+  margin-left: 20px;
 }
 
 
@@ -40,10 +43,12 @@
   font-size: 14px;
   font-weight: bold;
   display: block;
-  vertical-align: middle;
   cursor: pointer;
   position: relative;
   color: #f8960b;
+  margin-right: 1px;
+  margin-top: -3px;
+
  }
 
 .dropdown_button {
@@ -51,36 +56,41 @@
   background: none;
   text-decoration: underline;
   color: #f8960b;
+  font-weight: bold;
+  margin-right: 5px;
 }
 
 .dropdown_button:hover +.dropdown_menu {
-  right: 0;
   left: initial;
   display: block;
-  opacity: 1; 
+  opacity: 1;
+  transition-duration: .2s;
  }
+
+.dropdown_text {
+  margin-top: 5px;
+  text-align: left;
+}
 
 .dropdown_menu {
   z-index: 1;
   display: none;
   position: absolute;
-  width: 163px;
-  height: 68px;
-  padding: 20px;
+  width: 153px;
+  height: 55px;
   background: #f6f6f5;
-  border-radius: 5px;
+  border-radius: 3px;
   box-shadow: (0 0 5px rgba(0,0,0,0,5));
   font-size: 14px;
   color: black;
   font-weight: normal;
   top: 100%;
-  margin-top: 10px;
-  /*right: 0;*/
+  margin-top: 18px;
   left: -9999px;
-  opacity: 0;
-  transition: opacity 1s;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   padding: 10px;
+  opacity: 0;
+  margin-right: 20px;
 }
 
 .dropdown_block {
@@ -90,7 +100,9 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 17px;
-  padding-top: 15px;
+  margin-left: -5px;
+  margin-bottom: 5px;
+  padding-top: 3px;
 }
 
 .triangle {

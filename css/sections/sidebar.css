@@ -5,10 +5,11 @@
  
 .sidebar {
    margin-bottom: 42px;
+   padding-left: 37px;
 }
 
  .nav__item {
-  margin-bottom: 34px;
+  margin-bottom: 25px;
 }
 
 .nav__icon {
@@ -35,6 +36,7 @@
 
 .nav__link:hover .nav__text {
   color: #0a0c0d;
+  -webkit-transition: all 0.5s ease;  
 }
 
 .nav__text_about {
@@ -54,12 +56,14 @@
 
 
 .nav__link:hover .nav__icon_service_about {
-   background-image: url('../../img/service-icon.png')   
+   background-image: url('../../img/service-icon.png'); 
+   -webkit-transition: all 0.5s ease;  
 }
 
 .nav__link:hover .nav__icon_service {
-   background-image: url('../../img/service-icon.png') 
-}
+   background-image: url('../../img/service-icon.png');
+   -webkit-transition: all 0.5s ease;
+} 
 
 
 
@@ -75,10 +79,12 @@
 
 .nav__link:hover .nav__icon_direction_about {
    background-image: url('../../img/main-icon.png');
+   -webkit-transition: all 0.5s ease;
 }
 
 .nav__link:hover .nav__icon_direction {
    background-image: url('../../img/main-icon.png');
+   -webkit-transition: all 0.5s ease;
 }
 
 
@@ -94,8 +100,11 @@
 
 .nav__link:hover .nav__icon_star_about {
    background-image: url('../../img/feed-icon.png');
+   -webkit-transition: all 0.5s ease;
 }
 
 .nav__link:hover .nav__icon_star {
    background-image: url('../../img/feed-icon.png');
+   -webkit-transition: all 0.5s ease;
 }
+

@@ -1,9 +1,4 @@
-.title {
-  font-size: 49px;
-  font-weight: bold;
-  color: #131415;
-  margin-bottom: 40px;
-}
+
 
 .breadcrumbs {
   margin-bottom: 28px;
@@ -74,99 +69,45 @@ article {
   font-weight: bold;
   font-size: 49px;
   top: 140px;
+  letter-spacing: 3px;
 }
 
 .about__text {
   max-width: 100%;
   width: 694px;
   font-size: 18px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  line-height: 1.8;
 }
 
 .sport_list {
   list-style-type: disc;
+  
+  margin-left: 11px;
+  line-height: 2;
 }
 
 
-
 .recktangle__block {
-
   display: block;
 }
 
 .recktangle__text {
   background: #131415;
   color: white;
-  width: 700px;
-  height: 144px;
+  width: 638px;
+  height: 140px;
   padding-left: 31px;
   padding-right: 33px;
-  padding-top: 21px;
+ 
 }
-
-
-
-.team__item {
-display: inline-block;
-position: relative;
-border-bottom-width: 2px; 
-border-bottom-style: solid;
-border-bottom-color: #f5f5f5;
-
-}
-
-.team__item:last-child {
-border-bottom: none;
-}
-
-.team__block {
-  width: 688px;
-  height: 195px;
-  float: right;
-  font-size: 18px;
-  text-align: justify; 
-}
-
-.comments_data {
-  color: grey;
-}
-
-.team__avatar {
-  width: 160px;
-  height: 160px;
-  float: left;
-  margin-right: 19px;
-}
-
-.team__occ {
-  font-weight: bold;
-}
-
 
 
 .comments-section {
  float: right;
  margin-left: 200px; 
  margin-top: -200px;
-}
-
-
-
-.partners__title {
-  font-size: 49px;
-  font-weight: bold;
-  padding-top: 55px;
-  text-transform: uppercase;
-
-}
-
-
-.partners__item {
-  float: left;
-  width: 33.3%;
-  display: block;
-  height: 65px;
-  padding-bottom: 50px;
-  padding-top: 48px;
 }
 
 

@@ -1,0 +1,40 @@
+.service__item {
+    width: 300px;
+    float: left;
+ 
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 45px;
+    padding-right: 17px;
+    
+line-height: 21px;
+  display: block;
+}
+
+.service__avatar {
+  width: 250px;
+  height: 153px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.service__occ {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.service__content {
+  font-size: 14px;
+}
+
+.service_title {
+font-size: 49px;
+font-weight: bold;
+color: #131415;
+margin-top: -25px;    
+margin-left: -5px;
+}
+
+.service {
+  margin-top: 32px;
+}
