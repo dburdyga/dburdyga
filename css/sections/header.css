@@ -60,16 +60,16 @@
   margin-right: 5px;
 }
 
-.dropdown_button:hover +.dropdown_menu {
-  left: initial;
-  opacity: 1;
-  
- }
 
 .dropdown_text {
   margin-top: 5px;
   text-align: left;
 }
+
+.dropdown_button:hover +.dropdown_menu {
+  left: initial;
+  opacity: 1;
+ }
 
 .dropdown_menu {
   z-index: 1;
@@ -90,7 +90,7 @@
   opacity: 0;
   margin-right: 20px;
   opacity: 0;
-  transition-duration: 1s;
+  transition: 1s;
 }
 
 .dropdown_block {

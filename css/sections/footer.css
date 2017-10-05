@@ -6,7 +6,7 @@
 .footer__col {
   float: left;
   width: 33.3%;
-      margin-left: 18px;
+  margin-left: 18px;
  }
 
 
@@ -77,5 +77,5 @@ background-color: #f89513;
 width: 23px;
 height: 23px;
 border-radius: 23px;
--webkit-transition: all 0.7s ease;
+-webkit-transition: all 0.8s ease;
 }
