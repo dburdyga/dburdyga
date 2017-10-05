@@ -14,19 +14,19 @@ padding-top: 12px;
 }
 
 
-
 .team__block {
   width: 688px;
- 
   float: right;
   font-size: 18px;
   line-height: 1.8;
   margin-top: 5px;
 }
 
-.brd:last-child {
-  margin-bottom: 50px;
+.team__item:last-child {
+  margin-top: 33px;
 }
+
+
 
 .comments_data {
   color: grey;
