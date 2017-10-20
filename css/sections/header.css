@@ -41,13 +41,13 @@
 .contacts__desc { 
   color: #f8960b;
   font-size: 14px;
-  font-weight: bold;
-  display: block;
-  cursor: pointer;
-  position: relative;
-  color: #f8960b;
-  margin-right: 1px;
-  margin-top: -3px;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    color: #f8960b;
+    margin-right: -2px;
+    margin-top: -3px;
 
  }
 

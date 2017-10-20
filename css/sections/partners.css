@@ -11,10 +11,11 @@
   width: 33.3%;
   display: block;
   height: 65px;
-  padding-bottom: 50px;
-  padding-top: 48px;
   opacity: 0.8;
   filter: grayscale(100%); 
+  margin-top: 32px;
+  margin-bottom: 13px;
+  align-items: center;
 }
 
 .partners__item:hover {

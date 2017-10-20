@@ -77,13 +77,12 @@ article {
   width: 694px;
   font-size: 18px;
   padding-top: 5px;
-  margin-bottom: 10px;
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 .sport_list {
   list-style-type: disc;
-  
+  margin-top: -6px;
   margin-left: 11px;
   line-height: 2;
 }
@@ -97,8 +96,12 @@ article {
   background: #131415;
   color: white;
   width: 638px;
-  height: 140px;
-  padding: 20px 30px;
+  padding: 1px 30px;
+  line-height: 1.8;
+  margin-top: -21px;
+  margin-bottom: -10px;
+  font-size: 17px;
+  word-spacing: 2px;
 }
 
 
