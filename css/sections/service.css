@@ -3,11 +3,11 @@
 float: left;
 text-align: left;
 vertical-align: top;
-margin-bottom: 45px;
-padding-right: 17px; 
+margin-bottom: 27px;
+padding-right: 20px;
 line-height: 21px;
 display: block;
-margin-right: 12px;
+
 }
 
 .service__avatar {
@@ -24,6 +24,8 @@ margin-right: 12px;
 
 .service__content {
   font-size: 14px;
+  margin-top: -10px;
+  line-height: 1.6;
 }
 
 .service_title {
@@ -36,4 +38,10 @@ margin-left: -5px;
 
 .service {
   margin-top: 32px;
+}
+
+.service-section {
+ width: 877px;
+ float: right;
+ margin-bottom: -42px;
 }

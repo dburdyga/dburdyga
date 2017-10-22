@@ -2,10 +2,12 @@
 
 .breadcrumbs {
   margin-bottom: 28px;
+
 }
 
 .breadcrumbs__item {
   display: inline-block;
+  margin-top: -10px;
 }
 
 .breadcrumbs__item:after {
