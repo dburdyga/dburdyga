@@ -30,11 +30,7 @@
   cursor: default;
 }
 
-.team-section {
- width: 877px;
- float: right;
 
-}
 
 .about {
   width: 879px;
@@ -82,7 +78,7 @@ article {
 
 .sport_list {
   list-style-type: disc;
-  margin-top: -6px;
+
   margin-left: 11px;
   line-height: 2;
 }
